@@ -29,14 +29,7 @@ PERSPECTIVE_ATTRIBUTES = {
 load_dotenv()
 CAD_PATH = os.getenv("CAD_V1_1_PATH", "../data/cad_v1_1.tsv")
 OUTPUT_CSV = os.getenv("OUTPUT_CSV", "outputs/detected_vs_true.csv")
-API_KEYS = [
-    "AIzaSyD9Oi-5LAHMTsyxKKXwRpUGcQhg93gsZwQ",
-    "AIzaSyA50sg53qfozdDK7TIB_0xgWVw9zAvVV5Q",
-    "AIzaSyAm9xPE02_bXhymfv-vti5AbYjfRZ4wTyo",
-    "AIzaSyBdZcXLJS85eYPfOSMbTMGJUv1cABtrUtM",
-    "AIzaSyBL1YUf976MThHkZoZxYawH_K2wypq07DE",
-    "AIzaSyCTvYvBQKpt-CoApJmCkDyQxPcH95hnzUw"
-]
+API_KEYS = []
 MODEL = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
 
 # Primary and secondary labels will be loaded after reading the data
